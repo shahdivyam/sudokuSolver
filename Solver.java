@@ -172,9 +172,9 @@ public class Solver extends JFrame implements ActionListener {
 		for(int i=0;i<size;i++){
 			for(int j=0;j<size;j++){
 				JButton button = board[i][j];
-				if(button.getForeground()==Color.red){
-					return false;
-				}
+				 if(button.getForeground()==Color.blue){
+					 return false;
+				 }
 			}
 		}
 		return true;
